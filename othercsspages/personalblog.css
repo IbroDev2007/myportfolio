@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    /* border: 2px solid red; */
+}
+
+nav {
+    /* border: 2px solid green; */
+    display: flex;
+    background-color: white;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center ;
+    gap: 4em ;
+}
+.logo-wrapper ul {
+    display: flex;
+    text-align: center;
+    gap: 2em;
+}
+
+.logo-wrapper li a{
+    color: black;
+    text-transform: uppercase;
+}
+
+.hr {
+    /* border: 2px solid green; */
+    width: 90%;
+    height: 10px;
+    margin: auto;
+    background-image: linear-gradient(to right, black, #FFFAF0, #FFFAF0);
+}
+
+.below-hr {
+    width: 90%;
+    height: 10px;
+    margin: auto;
+    background-image: linear-gradient(to right, black, white, white);
+}
+
+.hero{
+    background-image: linear-gradient(to right, #F8F8FF, black, black);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.hero-text {
+    /* border: 2px solid green; */
+    color: #1a1a1a;
+    line-height: 3em;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+.hero-text h2 {
+    width: 58%;
+    font-weight:bolder;
+}
+
+.hero-text button {
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero-text button a{
+    color: white;
+    font-size: 2em;
+}
+
+.fullstack {
+    color: white;
+}
+
+.hero-two {
+    /* border: 2px solid green; */
+    padding: 10px 0px 20px 0px;
+    background-color: #f5f5ee;
+    margin: auto;
+    /* gap: 5em; */
+}
+
+.header-wrapper {
+    text-align: center;
+}
+
+.header-wrapper h1 {
+    font-size: 4em;
+    color: darkslategrey;
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.hero-two .hero-two-wrapper{
+    /* border: 2px solid green; */
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    /* padding: 20px; */
+    width: 90%;
+    gap: 1.2em;
+}
+
+.hero-two .who-i-am {
+    background-color: #EAEAEA;
+    /* background-image: linear-gradient(to bottom right, black, white, white); */
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.hero-two .my-focus {
+    background-color: #EAEAEA;
+    /* background-image: linear-gradient(to bottom right, black, white, white); */
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.hero-two .how-i-work {
+    background-color: #EAEAEA;
+    /* background-image: linear-gradient(to bottom right, black, white, white); */
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.hero-two .hero-three-wrapper {
+    /* border: 2px solid green; */
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    /* padding: 20px; */
+    width: 90%;
+    gap: 1.2em;
+    margin-top: 15px;
+}
+
+.hero-two .html{
+    background-color: #EAEAEA;
+    /* background-image: linear-gradient(to top left, black, white, white); */
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.hero-two .css{
+    /* background-image: linear-gradient(to top left, black, white, white); */
+    background-color: #EAEAEA;
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.hero-two .java{
+    background-color: #EAEAEA;
+    /* background-image: linear-gradient(to top left, black, white, white); */
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.for-white {
+    color: #F5F5F5;
+}
+
+
+.hero-two-below {
+    background-color: #EAEAEA;
+    padding: 10px;
+}
+
+.hero-two-below .hero-three-wrapper{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    gap: 1.2em;
+    padding-bottom: 20px;
+}
+
+.hero-three-wrapper .reading{
+    background-color: #f5f5ee;
+    /* background-image: linear-gradient(to top left, black, white, white); */
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.hero-three-wrapper .gaming {
+    background-color: #f5f5ee;
+    /* background-image: linear-gradient(to top left, black, white, white); */
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.hero-three-wrapper .music{
+    background-color: #f5f5ee;
+    /* background-image: linear-gradient(to top left, black, white, white); */
+    width: 33%;
+    padding: 20px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+footer{
+    /* border: 2px solid green; */
+    height: 30vh;
+    /* border: 2px soild red; */
+    background-color: black;
+    color: white;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.footer-container {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+     /* border: 5px soild blue;
+     width: 90%;
+     margin: auto; */
+     color: white;
+}
+
+.footer-wrapper {
+    /* border: 2px solid orange; */
+    width: 50%;
+    text-align: center;
+}
+
+.message {
+    /* border: 2px solid purple; */
+    width: 50%;
+    text-align: center;
+}
+
+.message input {
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.message .input-one{
+    height: 5em;
+    margin-left: 1.2em;
+}
+
+.order {
+    margin-bottom: 2%;
+}
+
+.table-container {
+    background-color: #f5f5ee;
+    padding: 20px;
+}
+
+.table-wrapper {
+    margin: auto;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+table {
+    /* border: 2px solid red; */
+    background-color: #EAEAEA;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+th{
+    border: 2px solid darkslategray;
+    padding: 8px;
+} 
+
+td{
+    border: 2px solid darkslategray;
+    padding: 8px;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body{
+    background-color: #201313;
+}
+
+header {
+    /* border: 2px solid green; */
+    background-color: #201313;
+}
+
+nav {
+    /* border: 3px solid crimson; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 98%;
+    margin: auto;
+}
+
+.menu-list {
+    /* border: 2px solid purple; */
+    align-items: center;
+}
+
+.menu-list ul {
+    display: flex;
+    align-items: center;
+    gap: 1.4em;
+}
+
+.menu-list li a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.btn-wrapper button{
+    background-color: #CE2D2D;
+    padding: 15px 40px ;
+    font-size: 1.2em;
+    border-radius: 40px;
+    width: 100%;
+    border: none;
+}
+
+.btn-wrapper a {
+    color: white;
+    /* word-spacing: 10px; */
+    /* letter-spacing: px; */
+    font-weight: 600;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero-wrapper .heading{
+    margin-left: -180px;
+    font-size: 3em;
+}
+
+.hero-wrapper .heading-two {
+    margin-left: -180px;
+    /* width: 190%; */
+    font-size: 1.2em;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+.texts {
+    width: 70vh;
+}
+
+.button-part {
+    margin-left: -180px;
+    margin-top: 20px;
+    background-color: #CE2D2D;
+    padding: 10px 30px 10px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 40px;
+}
+
+.button-part a {
+    color: white;
+}
+
+
+
+
