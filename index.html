@@ -73,7 +73,7 @@
       </nav>
     </header>
 
-    <section class="hero-container" id="hero">
+    <section class="hero-container trigger" id="hero">
       <div class="right">
         <h1>Im a Freelancer <br /><span class="special">DEVELOPER</span></h1>
         <p>
@@ -359,4 +359,15 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"
   ></script>
+  <script>
+    const header = document.querySelector("header");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 700) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    });
+  </script>
 </html>
