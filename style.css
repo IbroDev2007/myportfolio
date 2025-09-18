@@ -24,11 +24,11 @@ header {
     transition: background 0.3s ease;
 }
 
-header.scrolled {
-  /* background: white; */
+/* header.scrolled {
+  background: white;
   background: #ffffff6c;
   
-}
+} */
 
 nav {
     display: flex;
@@ -126,6 +126,11 @@ nav {
     }
 }
 
+@media(max-width:768px) {
+    header {
+        padding: 5px 0px 5px 0px;
+    }
+}
 @media(max-width:321px) {
     .menu-btn p {
         font-size: 1em;
